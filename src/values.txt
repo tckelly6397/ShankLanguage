@@ -1,0 +1,11 @@
+define start ()
+constants
+pi=3.14
+variables
+t:real
+begin
+    read var t
+    write t
+    t:=t * pi
+    write t
+end
